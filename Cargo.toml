@@ -1,0 +1,12 @@
+[package]
+name = "alibi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+ctor = "0.2.8"
+lazy_static = "1.4.0"
+
+[lib]
+crate-type = ["cdylib"]
